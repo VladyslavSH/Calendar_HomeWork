@@ -1,0 +1,84 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TreeView>
+            <TreeViewItem Header="Winter" Foreground="Blue">
+                <TreeViewItem Header="December" Foreground="Blue">
+                    <ListView>
+                        <Calendar DisplayDateStart="12/01/18" DisplayDateEnd="12/31/18"></Calendar>
+                    </ListView>
+                </TreeViewItem>
+                <TreeViewItem Header="Junuary" Foreground="Blue">
+                    <ListView>
+                        <Calendar DisplayDateStart="01/01/18" DisplayDateEnd="01/31/18"></Calendar>
+                    </ListView>
+                </TreeViewItem>
+                <TreeViewItem Header="February" Foreground="Blue">
+                    <ListView>
+                        <Calendar DisplayDateStart="02/01/18" DisplayDateEnd="02/28/18"></Calendar>
+                    </ListView>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Spring" Foreground="Green">
+                <TreeViewItem Header="March" Foreground="Green">
+                    <ListView>
+                        <Calendar DisplayDateStart="03/01/18" DisplayDateEnd="03/31/18"></Calendar>
+                    </ListView>
+                </TreeViewItem>
+                <TreeViewItem Header="April" Foreground="Green">
+                    <ListView>
+                        <Calendar DisplayDateStart="04/01/18" DisplayDateEnd="04/30/18"></Calendar>
+                    </ListView>
+                </TreeViewItem>
+                <TreeViewItem Header="May" Foreground="Green">
+                    <ListView>
+                        <Calendar DisplayDateStart="05/01/18" DisplayDateEnd="05/31/18"></Calendar>
+                    </ListView>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Summer" Foreground="#FFCFC846">
+                <TreeViewItem Header="June" Foreground="#FFCFC846">
+                    <ListView>
+                        <Calendar DisplayDateStart="06/01/18" DisplayDateEnd="06/30/18"></Calendar>
+                    </ListView>
+                </TreeViewItem>
+                <TreeViewItem Header="July" Foreground="#FFCFC846">
+                    <ListView>
+                        <Calendar DisplayDateStart="07/01/18" DisplayDateEnd="07/31/18"></Calendar>
+                    </ListView>
+                </TreeViewItem>
+                <TreeViewItem Header="August" Foreground="#FFCFC846">
+                    <ListView>
+                        <Calendar DisplayDateStart="08/01/18" DisplayDateEnd="08/31/18"></Calendar>
+                    </ListView>
+                </TreeViewItem>
+            </TreeViewItem>
+
+            <TreeViewItem Header="Autumn" Foreground="Brown">
+                <TreeViewItem Header="September" Foreground="Brown">
+                    <ListView>
+                        <Calendar DisplayDateStart="09/01/18" DisplayDateEnd="09/30/18"></Calendar>
+                    </ListView>
+                </TreeViewItem>
+                <TreeViewItem Header="October" Foreground="Brown">
+                    <ListView>
+                        <Calendar DisplayDateStart="10/01/18" DisplayDateEnd="10/31/18"></Calendar>
+                    </ListView>
+                </TreeViewItem>
+                <TreeViewItem Header="November" Foreground="Brown">
+                    <ListView>
+                        <Calendar DisplayDateStart="11/01/18" DisplayDateEnd="11/30/18"></Calendar>
+                    </ListView>
+                </TreeViewItem>
+            </TreeViewItem>
+        </TreeView>
+    </Grid>
+</Window>
